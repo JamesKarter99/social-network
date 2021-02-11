@@ -1,32 +1,26 @@
 import React from 'react';
+import s from './Style/Profile.module.css';
+import Sections from './Sections';
+import profileAvatar from './../Images/avatar.png';
 
 const Profile = () => {
     return (
-        <div className='content'>
-            <div>
-                <img src="https://helpx.adobe.com/content/dam/help/en/photoshop/using/convert-color-image-black-white/jcr_content/main-pars/before_and_after/image-before/Landscape-Color.jpg"/>
+        <div className={s.profile}>
+            <div className={s.profile__avatar}>
+                <img src={profileAvatar} alt=""/>
             </div>
-            <div>
-                avatar
+            <div className={s.profile__name}>
+                Владимир Иванов
             </div>
-            <div>
-                My post
-                <div>
-                    New post
-                </div>
-                <div>
-                    <div>
-                        Post 1
-                    </div>
-                    <div>
-                        Post 2
-                    </div>
-                    <div>
-                        Post 3
-                    </div>
-                </div>
-            </div> 
-        </div>
+            <div className={s.profile__proff}>
+                Fullstack разработчик
+            </div>
+
+            <a href="#" className={s.profile__btn}>Подписаться</a>
+
+            <Sections/>
+
+        </div> 
     );
 }
 

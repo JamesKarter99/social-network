@@ -1,10 +1,19 @@
 import React from 'react';
+import s from './Style/Header.module.css';
 
 const Header = () => {
     return (
-        <header className='header'>
-            <img src='https://i.pinimg.com/originals/33/b8/69/33b869f90619e81763dbf1fccc896d8d.jpg'/>
-        </header>
+        <div className={s.header}>
+            <div className="container">
+                <div className={s.nav}>
+                    <a href="#" className={s.nav__link}>Новости</a>
+                    <a href="#" className={s.nav__link}>Рекомендации</a>
+                    <a href="#" className={s.nav__link}>Профиль</a>
+                    <a href="#" className={s.nav__link}>Подписки</a>
+                    <a href="#" className={s.nav__link}>Настройки</a>
+                </div>
+            </div>
+        </div>
     );
 }
 
