@@ -1,11 +1,10 @@
 import React from 'react';
-import Profile from './Profile';
-import s from './Style/Posts.module.css';
+import s from './Posts.module.css';
 
-import imagePost1 from './../Images/post_1.jpg';
-import imagePost2 from './../Images/post_2.jpg';
-import imagePost3 from './../Images/post_3.jpg';
-import imagePost4 from './../Images/post_4.jpg';
+import imagePost1 from './../../images/post_1.jpg';
+import imagePost2 from './../../images/post_2.jpg';
+import imagePost3 from './../../images/post_3.jpg';
+import imagePost4 from './../../images/post_4.jpg';
 
 const Posts = () => {
     return (

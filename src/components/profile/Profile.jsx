@@ -1,7 +1,7 @@
 import React from 'react';
-import s from './Style/Profile.module.css';
-import Sections from './Sections';
-import profileAvatar from './../Images/avatar.png';
+import s from './Profile.module.css';
+import Sections from '../sections/Sections';
+import profileAvatar from './../../images/avatar.png';
 
 const Profile = () => {
     return (

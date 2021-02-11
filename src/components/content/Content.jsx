@@ -1,7 +1,7 @@
 import React from 'react';
-import Profile from './Profile';
-import Posts from './Posts';
-import s from './Style/Content.module.css';
+import Profile from '../profile/Profile';
+import Posts from '../posts/Posts';
+import s from './Content.module.css';
 
 const Content = () => {
     return (

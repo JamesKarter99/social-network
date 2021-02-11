@@ -1,6 +1,6 @@
 import React from 'react';
-import s from './Style/Intro.module.css';
-import introImg from './../Images/intro.jpg';
+import s from './Intro.module.css';
+import introImg from './../../images/intro.jpg';
 
 const Nav = () => {
     return (
